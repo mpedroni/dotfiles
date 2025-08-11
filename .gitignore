@@ -1,0 +1,10 @@
+/*
+
+!.gitignore
+
+!bin/
+!.config/
+!.zshrc
+!.profile
+!.bashrc
+!README.md
