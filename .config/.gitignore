@@ -1,0 +1,13 @@
+!alacritty/
+!alacritty/**
+
+!gh/
+!gh/**
+
+!zellij/
+!zellij/**
+
+!zsh/
+!zsh/**
+
+!.user-dirs.dirs

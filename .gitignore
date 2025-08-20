@@ -1,6 +1,7 @@
-/*
+/**
 
 !.gitignore
+!**/.gitignore
 
 !bin/
 !.config/
@@ -8,3 +9,4 @@
 !.profile
 !.bashrc
 !README.md
+
