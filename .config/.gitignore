@@ -10,4 +10,7 @@
 !zsh/
 !zsh/**
 
+!nvim/
+!nvim/**
+
 !.user-dirs.dirs
