@@ -2,6 +2,8 @@
 # set $HOME as the working tree for the .dotfiles bare repo. The .dotfiles repo must be previous created
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+export PATH=$HOME/.bin:$PATH
+
 # disable git search for untracked files
 dotfiles config status.showUntrackedFiles no
 
