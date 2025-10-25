@@ -1,6 +1,13 @@
 # dotfiles
 # set $HOME as the working tree for the .dotfiles bare repo. The .dotfiles repo must be previous created
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dfs="dotfiles"
+alias dfs="dotfiles"
+alias dfd="dotfiles diff"
+alias dfa="dotfiles add"
+alias dfc="dotfiles commit"
+alias dfca="dotfiles commit -am"
+alias dfst="dotfiles status"
 
 export PATH=$HOME/.bin:$PATH
 
