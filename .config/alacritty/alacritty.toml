@@ -1,7 +1,10 @@
 [general]
 import = [
-    "~/.config/alacritty/themes/github_dark_high_contrast.toml"
+    "~/.config/alacritty/themes/monokai_pro_dark.toml"
 ]
+
+[font]
+normal = { family = "0xProtoNerdFontMono", style = "Regular" }
 
 [window]
 padding = { x = 2, y = 2 }

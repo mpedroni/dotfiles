@@ -1,5 +1,5 @@
 local k = vim.keycode
-vim.g.mapleader = k'<space>'
+vim.g.mapleader = k '<space>'
 
 vim.keymap.set('n', '<leader>pv', ':Ex<CR>')
 
