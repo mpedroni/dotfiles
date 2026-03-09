@@ -1,0 +1,10 @@
+#!/bin/bash
+set -euo pipefail
+
+echo "Starting Fedora setup..."
+./scripts/fedora.sh
+echo "Fedora setup finished."
+
+echo "Starting GNOME setup..."
+./scripts/gnome.sh
+echo "GNOME setup finished."

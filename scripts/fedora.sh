@@ -1,11 +1,6 @@
 #!/bin/bash
 set -euo pipefail
 
-if [[ $EUID -ne 0 ]]; then
-  echo 'This script must be run with sudo.'
-  exit 1
-fi
-
 ## disable the "Install pending software updates" when shutting down
 
 # packagekit provides backend for GUI software updates (GNOME Software, Discover)
